@@ -78,7 +78,7 @@ bot.on('polling_error',async(error)=>{
 });
 
 //define a quantidade de sinais por horario
-const QTDSINAIS = 1;
+const QTDSINAIS = 50;
 
 //Define quantas rodadas que aguarda até ser liberado para analisar outro green 
 const RODADAS_REDALERT = 6;
